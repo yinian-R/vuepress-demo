@@ -1,6 +1,7 @@
 module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
+    base: '/vuepress-demo/',
     head:[
         ['link', {rel:'icon', href:'/image/favicon.ico'}]
     ],
@@ -17,7 +18,6 @@ module.exports = {
             },
             { text: 'GitHub', link: 'https://github.com' }
         ],
-        // displayAllHeaders: true,
         sidebar: [
             '/',
             ['/hello', 'hello page']
