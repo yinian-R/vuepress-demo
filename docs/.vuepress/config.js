@@ -8,7 +8,7 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '主页', link: '/' },
-            { text: '配置', link: '/guide/' },
+            { text: '指南', link: '/guide/' },
             {
                 text: '语言',
                 items: [
@@ -18,9 +18,11 @@ module.exports = {
             },
             { text: 'GitHub', link: 'https://github.com' }
         ],
-        sidebar: [
-            '/',
-            ['/hello', 'hello page']
-        ]
+        sidebar: {
+            '/guide/' :[
+                ['/guide/hello', 'hello title'],
+                '/guide/word'
+            ]
+        }
     }
 };
