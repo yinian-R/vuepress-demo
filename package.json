@@ -2,13 +2,11 @@
   "name": "vuepress",
   "version": "1.0.0",
   "description": "使用 VuePress 搭建静态网站",
-  "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "1.0.3"
   }
 }
